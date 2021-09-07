@@ -1,1 +1,1 @@
-class addTwoNumbersSolution {}
+class AddTwoNumbersSolution {}

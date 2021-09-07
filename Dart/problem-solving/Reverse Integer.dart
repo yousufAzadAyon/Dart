@@ -1,4 +1,4 @@
-class reverseSolution {
+class ReverseSolution {
   reverseIntegerWithString(int number) {
     String temp = number.toString();
     List gg = [];
@@ -20,6 +20,6 @@ class reverseSolution {
 }
 
 main(List<String> args) {
-  var testing = reverseSolution();
+  var testing = ReverseSolution();
   print(testing.reverseIntegerWithMod(444555666777888999));
 }
