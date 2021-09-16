@@ -1,6 +1,6 @@
 class Solution {
   fizzBuzz(int limit) {
-    for (int i = 0; i < limit; i++) {
+    for (int i = 1; i <= limit; i++) {
       if ((i % 3 == 0) & (i % 5 == 0)) {
         print("fizzBuzz");
       } else if (i % 3 == 0) {
