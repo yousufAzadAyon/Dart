@@ -17,15 +17,31 @@ main(List<String> args) {
   String operation = prompt("enter optation:");
   double numberTwo = promptDouble();
 
-  if (operation == "+") {
-    print(numberOne + numberTwo);
-  } else if (operation == "-") {
-    print(numberOne - numberTwo);
-  } else if (operation == "/") {
-    print(numberOne / numberTwo);
-  } else if (operation == "*") {
-    print(numberOne * numberTwo);
-  } else {
-    return "invalid operator";
+  // if (operation == "+") {
+  //   print(numberOne + numberTwo);
+  // } else if (operation == "-") {
+  //   print(numberOne - numberTwo);
+  // } else if (operation == "/") {
+  //   print(numberOne / numberTwo);
+  // } else if (operation == "*") {
+  //   print(numberOne * numberTwo);
+  // } else {
+  //   print("invalid operator");
+  // }
+  switch (operation) {
+    case "+":
+      print(numberOne + numberTwo);
+      break;
+    case "-":
+      print(numberOne - numberTwo);
+      break;
+    case "/":
+      print(numberOne / numberTwo);
+      break;
+    case "*":
+      print(numberOne * numberTwo);
+      break;
+    default:
+      print("invalid operator");
   }
 }
